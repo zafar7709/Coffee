@@ -1,0 +1,96 @@
+.intro_btn {
+  top: calc(50% - 12.5px - 0.5px);
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+  background: #66d2cf;
+  border-radius: 6px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_logo {
+  width: 236px;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.nav_link {
+  /* HOME */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.intro {
+  margin-top: 50px;
+  background-image: url("../img/coffe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 105px;
+}
+.intro_title {
+  /* Great coffee made si */
+  width: 500px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+.intro_text {
+  width: 450px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro_btn {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */

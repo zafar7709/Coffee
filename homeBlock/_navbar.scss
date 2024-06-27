@@ -1,0 +1,27 @@
+.nav {
+  @include Display;
+
+  &_logo {
+    width: 236px;
+  }
+
+  &_list {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+  &_link {
+    /* HOME */
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+  }
+}
