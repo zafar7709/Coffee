@@ -1,4 +1,4 @@
-.intro_btn {
+.works_btn, .intro_btn {
   top: calc(50% - 12.5px - 0.5px);
   font-family: "Fraunces 9pt";
   font-style: normal;
@@ -204,4 +204,110 @@ a {
   line-height: 26px;
   text-align: center;
   color: #fefcf7;
+}
+
+.works {
+  margin-top: 500px;
+}
+.works_maintitle {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.works_sircile {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.works_box {
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.works_hr {
+  width: 600px;
+}
+.works_cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.works_title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.works_subtitle {
+  width: 250px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.works_text {
+  margin-top: 30px;
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.works_btn {
+  margin-top: 50px;
+}
+
+.footer {
+  padding: 50px 150px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.694);
+}
+.footer_logo {
+  width: 236px;
+}
+.footer_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footer_items {
+  list-style: none;
+}
+.footer_link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  color: #83888f;
+}
+.footer_media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+svg {
+  width: 25px;
+  height: 24px;
+  fill: none;
 }/*# sourceMappingURL=style.css.map */
