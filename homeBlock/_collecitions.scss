@@ -1,0 +1,39 @@
+.collect {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  @include Display;
+
+  &_card {
+    @include Display;
+     gap: 70px;
+  }
+  &_cards {
+    margin-top: 210px;
+  }
+  &_title {
+    width: 255px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #333d4b;
+  }
+  &_text {
+    width: 255px;
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+
+    color: #333d4b;
+  }
+}
