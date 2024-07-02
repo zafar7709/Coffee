@@ -70,3 +70,27 @@
     color: #fefcf7;
   }
 }
+
+@media only screen and (max-width: 450px){
+  .choose{
+    height: 900px;
+    justify-content: start;
+    padding: 20px 0px;
+
+    &_title{
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+    }
+    &_text{
+      width: 90%;
+    }
+    &_cards{
+      flex-direction: column;
+      top: 300px;
+    }
+    &_card{
+      width: 300px;
+    } 
+  }
+}

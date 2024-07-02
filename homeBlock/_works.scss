@@ -61,3 +61,41 @@
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 450px){
+  .works{
+    margin-top: 800px;
+
+    &_maintitle{
+      text-align: center;
+    }
+    &_sircile{
+      display: none;
+    }
+    &_cards{
+      flex-direction: column;
+      gap: 50px;
+    }
+    &_card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    &_text{
+      text-align: center;
+    }
+    &_subtext{
+      text-align: center;
+    }
+    &_title{
+      text-align: center;
+    }
+    &_btn{
+      margin-top: 50px;
+      margin-left: 80px;
+
+    }
+
+  }
+}

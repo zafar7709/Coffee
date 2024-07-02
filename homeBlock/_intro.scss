@@ -37,3 +37,35 @@
     margin-top: 30px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .intro {
+
+    padding: 60px 50px;
+    background-position: center;
+    border-radius: 20px;
+
+    &_left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &_title {
+      width: 279px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    &_text {
+      /* Start your mornings */
+      width: 279px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+    }
+  }
+}

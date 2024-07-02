@@ -4,18 +4,23 @@
     justify-content: space-between;
 }
 %Btn-style{
-    top: calc(50% - 25px / 2 - 0.5px);
 
-    font-family: "Fraunces 9pt";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 25px;
-    /* identical to box height, or 139% */
-    text-align: center;
 
-    color: #fefcf7;
+background: #0E8784;
+border-radius: 6px;
 
-    background: #66d2cf;
-    border-radius: 6px;
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+    
+    
 }
