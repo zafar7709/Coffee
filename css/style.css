@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .works_btn, .intro_btn {
   background: #0E8784;
   border-radius: 6px;
@@ -475,4 +476,105 @@ svg {
     width: 200px;
     gap: 20px;
   }
+}
+.aboutIntro {
+  margin-top: 50px;
+  background-image: url(../img/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+  height: 500px;
+  border-radius: 20px;
+}
+.aboutIntro_title {
+  /* About Us */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #fefcf7;
+}
+.aboutIntro_text {
+  /* Coffeeroasters began */
+  width: 445px;
+  margin-top: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+}
+
+.our {
+  margin-top: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.our_img {
+  width: 445px;
+}
+.our_title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333d4b;
+}
+.our_text {
+  margin-top: 30px;
+  /* We’re built on a sim */
+  width: 540px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality {
+  position: relative;
+  margin-top: 256px;
+  background-color: #2c343e;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+.quality_title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.quality_text {
+  width: 540px;
+  margin-top: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.quality_img {
+  position: absolute;
+  top: -90px;
+  right: 100px;
 }/*# sourceMappingURL=style.css.map */
