@@ -33,3 +33,14 @@
     color: #fefcf7;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .aboutIntro {
+    background-position: center;
+    padding: 50px;
+    height: 400px;
+    &_text {
+      width: 100%;
+    }
+  }
+}

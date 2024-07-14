@@ -1,0 +1,44 @@
+.country {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+
+  &_subtitle {
+    /* Our headquarters */
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888f;
+  }
+  &_cards{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &_card{
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .country{
+    &_subtitle{
+      width: 25%;
+    }
+    &_cards{
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+    &_card{
+      align-items: center;
+    }
+  }
+}

@@ -19,7 +19,7 @@
   }
   &_text {
     margin-top: 30px;
-    
+
     /* We’re built on a sim */
     width: 540px;
     font-family: "Barlow";
@@ -33,5 +33,31 @@
 
     mix-blend-mode: normal;
     opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &_left{
+      width: 100%;
+    }
+    &_img{
+      width: 100%;
+    }
+    &_title{
+      font-weight: 900;
+      font-size: 32px;
+      text-align: center;
+    }
+    &_text {
+      /* We’re built on a sim */
+      width: 390px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
 }

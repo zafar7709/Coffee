@@ -1,0 +1,105 @@
+.drink {
+  margin-top: 159px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  &_left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &_hr {
+    box-sizing: content-box;
+    height: 0;
+  }
+  &_title {
+    /* 01 */
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #0e8784;
+  }
+  &_subtitle {
+    /* Preferences */
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #333d4b;
+  }
+  &_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  &_right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &_top {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  &_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  &_cards {
+    width: 228px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 30px;
+    &_title {
+      /* Capsule */
+
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+
+      color: #333d4b;
+    }
+    &_text {
+      /* For pour over or dri */
+      width: 70%;
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+
+      color: black;
+    }
+  }
+}
+
+@media only screen and (max-width:768px){
+  .drink{
+    &_left{
+      display: none;
+    }
+    &_cards{
+      width: 100%;
+    }
+    &_bottom{
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+}
